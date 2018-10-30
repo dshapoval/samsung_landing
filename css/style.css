@@ -1,0 +1,1156 @@
+body {
+  background-image: linear-gradient( to top, #10419c 0%, #1a53be 14%, #032c83 20.6%, #032775 20.7%, #032b81 20.8%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -moz-linear-gradient( to top, #10419c 0%, #1a53be 14%, #032c83 20.6%, #032775 20.7%, #032b81 20.8%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -webkit-linear-gradient( to top, #10419c 0%, #1a53be 14%, #032c83 20.6%, #032775 20.7%, #032b81 20.8%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -ms-linear-gradient( to top, #10419c 0%, #1a53be 14%, #032c83 20.6%, #032775 20.7%, #032b81 20.8%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -o-linear-gradient( to top, #10419c 0%, #1a53be 14%, #032c83 20.6%, #032775 20.7%, #032b81 20.8%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+}
+@font-face { 
+  font-family: 'MontserratBold';
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { 
+  font-family: 'MontserratSemiBold';
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { 
+  font-family: 'MontserratExtraLight';
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { 
+  font-family: 'MontserratLight';
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { 
+  font-family: 'MontserratThin';
+  src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.header, .header__logo, .main,.phone,.description,.ellipse,.promotion,.promotion__terms,.promotion__item,.promotion__item_tablet,.promotion__item_sumsung,.balls,.advertising,.ellipses__bottom,.footer,.secure,.partners,.social-menu {
+  display: flex;
+}
+.header {
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  min-width: 375px;
+  justify-content: center;
+  height: 150px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+.header__logo {
+  border-radius: 50%;
+  box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.15);
+  background-image: -moz-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+  background-position: center;
+  position: absolute;
+  top: -414px;
+  width: 521px;
+  height: 521px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header__link {
+  margin-bottom: 37px;
+}
+.main {
+  flex-direction: column;
+  align-items: center;
+  min-width: 375px;
+}
+.phone {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url('../img/phone_original.png');
+  background-size: 450px 317px;
+  height: 316px;
+  width: 100%;
+  min-width: 375px;
+  margin-bottom: 42px;
+}
+.description {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 375px;
+}
+.gift_samsung {
+  display: none;
+}
+.title {
+  font-size: 25px;
+  font-family: MontserratBold;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-variant: small-caps;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  transform: scaleY(0.95);
+  position: absolute;
+  top: 82px;
+  right: 35px;
+}
+.gift,.gift_samsung {
+  font-family: "MontserratExtraLight";
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 1.125;
+  letter-spacing: 0.02em;
+  margin: 20px 0px 0px 0px;
+  transform: scaleY(0.95);
+  position: absolute;
+  top: 135px;
+  right: 30px;;
+}
+.ellipse {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 74px;
+}
+.ellipse__small,.ellipse__middle,.ellipse__big, .ellipse__top, .ellipse__bottom {
+  border-radius: 50%;
+  background: linear-gradient(to top, #e9953b, #ffbb50);
+}
+.ellipse__small {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 14px;
+}
+.ellipse__middle {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+.ellipse__big {
+  width: 28px;
+  height: 28px;
+}
+.promotion {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.promotion__period, .promotion__period_desktop {
+  font-size: 30px;
+  font-family: "MontserratBold";
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  font-variant: small-caps;
+  line-height: 1.333;
+  text-align: right;
+  letter-spacing: 0.04em;
+  margin: 0px 0px 79px 0px;
+}
+.promotion__period_desktop {
+    display: none;
+  }
+.promotion__terms {
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.promotion__item, .promotion__item_tablet,.promotion__item_samsung {
+  font-size: 16px;
+  font-family: "MontserratSemiBold";
+  color: rgb(255, 255, 255);
+  font-variant: small-caps;
+  line-height: 1.687;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-left: -15px;
+}
+.promotion__item_samsung, .promotion__item_tablet {
+  display: none;
+}
+.byCard {
+  font-family: "MontserratExtraLight";
+}
+.promotion__index-one:before{
+  display: inline-block;
+  content: '1';
+  color: #154db6;
+  font-family: "MontserratSemiBold";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #e9953b, #ffbb50);
+  margin-right: 8px;
+}
+.promotion__index-two:before{
+  display: inline-block;
+  content: '2';
+  color: #154db6;
+  font-family: "MontserratSemiBold";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #e9953b, #ffbb50);
+  margin-right: 8px;
+}
+.button-pay {
+  justify-content: center;
+  font-size: 12px;
+  font-family: "MontserratBold";
+  color: #072f78;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-image: -moz-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  box-shadow: 0px 6px 11.16px 0.84px rgba(0, 0, 0, 0.25);
+  width: 239px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 29px;
+  margin-bottom: 61px;
+  cursor: pointer;
+}
+.button-pay__link {
+  text-decoration: none;
+  display: block;
+}
+.promotion__information {
+  margin-left: 7px;
+}
+.promotion__winner {
+  font-family: "MontserratLight";
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fefefe;
+  margin-bottom: 16px;
+}
+.promotion__result-date {
+  font-family: "MontserratBold";
+  font-size: 25px;
+  letter-spacing: 0.04em;
+  color: #fefefe;
+}
+.attributes {
+  width: 100%;
+  min-width: 375px;
+  height: 166px;
+  position: relative;
+}
+.balls {
+  width: 157px;
+  height: 166px;
+  position: absolute;
+  left:-48px;
+}
+.ball-top {
+  width: 98px;
+  height: 98px;
+  background-image: linear-gradient(to top, #b96b12 0%, #e9953b 49%, #ffbb50 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.22);
+}
+.ball-middle {
+  align-self: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-image: linear-gradient(to top, #b96b12 0%, #e9953b 49%, #ffbb50 100%);
+  border-radius: 50%;
+  position: absolute;
+  left:78px;
+  top: 107px;
+  box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.22);
+}
+.ball-bottom {
+  align-self: flex-end;
+  justify-content: flex-end;
+  width: 18px;
+  height: 18px;
+  background-image: linear-gradient(to top, #b96b12 0%, #e9953b 49%, #ffbb50 100%);
+  border-radius: 50%;
+  position: absolute;
+  left:105px;
+  top: 146px;
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.22);
+}
+.box {
+  background-image: url('../img/box.png');
+  width: 207px;
+  height: 429px;
+  position: absolute;
+  right: 0px;
+  top: -170px;
+}
+.advertising {
+  flex-direction: column;
+  text-align: right;
+  min-width: 375px;
+  margin-top: 80px;
+}
+.advertising__title, .advertising__title-tablet, .advertising__title-desktop {
+  align-self: flex-start;
+  font-family: "MontserratLight";
+  font-size: 18px;
+  line-height: 1.488;
+  letter-spacing: 0.04em;
+  font-variant: small-caps;
+  color: #fefefe;
+  margin-left: 47px;
+}
+.advertising__title-tablet, .advertising__title-desktop {
+  display: none;
+}
+.advertising__card {
+  margin: 67px 0px 46px 0px;
+}
+.advertising-image {
+    width: 375px;
+    height: 147px;
+  }
+.advertising__button {
+  align-self: center;
+  width: 239px;
+  height: 46px;
+  font-size: 13px;
+  font-family: "MontserratBold";
+  color: #072f78;
+  text-transform: uppercase;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-image: -moz-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(255,187,80) 0%, rgb(233,149,59) 100%);
+  box-shadow: 0px 6px 11.16px 0.84px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 36px;
+}
+.advertising__link {
+  display: block;
+  text-decoration: none;
+}
+.ellipses__bottom {
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.ellipse__top {
+  height: 23px;
+  width: 23px;
+  margin-bottom: 18px;
+  box-shadow: -0.5px 1px 4px 1px rgba(0,0,0,0.35);
+}
+.ellipse__bottom {
+  height: 54px;
+  width: 53px;
+  box-shadow: -0.5px 1px 4px 1px rgba(0,0,0,0.35);
+  margin-bottom: -14px;
+}
+.official-terms {
+  display: none;
+}
+.button-pay:hover {
+  background-image: -moz-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  background-image: -webkit-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  background-image: -ms-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  box-shadow: 0px 6px 11.16px 2px rgba(0, 0, 0, 0.5);
+  transition: 2s;
+}
+.advertising__button:hover {
+  background-image: -moz-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  background-image: -webkit-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  background-image: -ms-linear-gradient( -90deg, #ffd49a 0%, #ffdeb2 100%);
+  box-shadow: 0px 6px 11.16px 2px rgba(0, 0, 0, 0.5);
+  transition: 2s;
+}
+.button-pay__link {
+  color: #072f78;
+}
+.advertising__link:visited {
+  color: #072f78;
+}
+.button-pay__link:hover {
+  color: #ffffff;
+}
+.advertising__link:hover {
+  color: #ffffff;
+}
+.official-terms__link:hover{
+  font-size: 24px;
+  transform: scale(1.05, 1.05);
+  transition: 1s;
+  border-bottom: 1px solid rgb(194, 163, 31);
+  color: rgb(194, 163, 31);
+  text-shadow: 0px -2px 11px rgb(194, 163, 31);
+  font-weight: bold;
+  transition: 1s;
+}
+.official-terms__link:visited{
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+.footer {
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.partners, .secure {
+  display: none;
+}
+.footer {
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.footer {
+  width: 100%;
+  height: 140px;
+  background: #252525;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.secure {
+  justify-content: center;
+}
+.visa {
+  width: 119px;
+  height: 66px;
+  background-image: url('../img/visa_master.png');
+  background-position: 0px 0px;
+  margin: 0px 5px;
+}
+.master-card {
+  width: 131px;
+  height: 66px;
+  background-image: url('../img/visa_master.png');
+  background-position: -149px 0px;
+  margin: 0px 5px;
+}
+.footer-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 375px;
+}
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content:flex-start;
+  font-size: 13px;
+  font-family: "MontserratBold";
+  color: #ffffff;
+  min-width: 312px;
+  margin-top: 4px;
+}
+.menu__link {
+  display: block;
+  font-size: 11px;
+  height: 20px;
+  line-height: 20px;
+  font-family: "MontserratLight";
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+.menu__link:hover {
+  color: #fcb658;
+  text-decoration: underline;
+}
+.copyright, .conpany {
+  font-size: 13px;
+  font-family: "MontserratLight";
+  color: #808080;
+  line-height: 1.2;
+}
+.geo-trust {
+  width: 206px;
+  height: 60px;
+  background-image: url('../img/geoTrast_sysNet.png');
+  background-position: 0px 0px;
+  margin: 0px 5px;
+}
+.sys-net {
+  width: 184px;
+  height: 60px;
+  background-image: url('../img/geoTrast_sysNet.png');
+  background-position: -237px 0px;
+  margin: 0px 5px;
+}
+.social-menu {
+  margin-top: 5px; 
+}
+.social-menu__link-fb {
+  display: block;
+  background-image: url('../img/social_icons_sprite.png');
+  background-position: 0px 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.social-menu__link-vk {
+ display: block;
+ background-image: url('../img/social_icons_sprite.png');
+ background-position: -62px 0px;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+}
+.social-menu__link-tw {
+  display: block;
+  background-image: url('../img/social_icons_sprite.png');
+  background-position: -123px 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.social-menu__link-google {
+  display: block;
+  background-image: url('../img/social_icons_sprite.png');
+  background-position: -185px 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.social-menu__items {
+  margin: 0px 5px;
+}
+@media screen and (min-width: 380px) {
+  .header {
+    min-width: 375px;
+    height: 150px;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+  }
+  .header__logo {
+    background-image: -moz-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-position: center;
+    position: absolute;
+    top: -414px;
+    width: 521px;
+    height: 521px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main {
+    min-width: 375px;
+  }
+  .phone {
+    background-size: 450px 317px;
+    height: 316px;
+    width: 100%;
+    min-width: 375px;
+    margin-bottom: 42px;
+  }
+  .description {
+    width: 375px;
+  }
+  .title {
+    font-size: 25px;
+    top: 82px;
+    right: 35px;
+  }
+  .gift {
+    font-size: 22px;
+    top: 135px;
+    right: 30px;
+  }
+  .gift_samsung {
+    display: none;
+  }
+  .ellipse__small {
+    width: 12px;
+    height: 12px;
+    margin-bottom: 14px;
+  }
+  .ellipse__middle {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  .ellipse__big {
+    width: 28px;
+    height: 28px;
+  }
+  .promotion {
+    margin-bottom: 80px;
+  }
+  .promotion__period {
+    font-size: 30px;
+    line-height: 1.333;
+    text-align: right;
+    margin: 0px 0px 79px 0px;
+  }
+  .promotion__item {
+    font-size: 16px;
+    line-height: 1.687;
+    margin-bottom: 25px;
+    margin-left: -15px;
+  }
+  .promotion__index-one:before{
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 8px;
+  }
+  .promotion__index-two:before{
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 8px;
+  }
+  .button-pay {
+    font-size: 12px;
+    width: 239px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 29px;
+    margin-bottom: 61px;
+  }
+  .attributes {
+    width: 100%;
+    min-width: 375px;
+    height: 166px;
+    position: relative;
+  }
+  .balls {
+    width: 157px;
+    height: 166px;
+    position: absolute;
+    left:-48px;
+  }
+  .ball-top {
+    width: 98px;
+    height: 98px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.22);
+  }
+  .ball-middle {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left:78px;
+    top: 107px;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.22);
+  }
+  .ball-bottom {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left:105px;
+    top: 146px;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.22);
+  }
+  .box {
+    background-image: url('../img/box.png');
+    right: 0px;
+    top: -170px;
+  }
+  .advertising {
+    text-align: right;
+    min-width: 375px;
+    margin-top: 80px;
+  }
+  .advertising__title {
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    margin-left: 47px;
+  }
+  .advertising__card {
+    margin: 67px 0px 46px 0px;
+  
+  }
+  .advertising-image {
+    width: 375px;
+    height: 147px;
+  }
+  .advertising__button {
+    font-size: 13px;
+    line-height: 46px;
+    width: 239px;
+    height: 46px;
+    border-radius: 30px;
+    margin-bottom: 36px;
+  }
+  .official-terms {
+    display: none;
+  }
+  .footer-information {
+    min-width: 375px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .header {
+    min-width: 620px;
+    height: 150px;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 65px;
+  }
+  .header__logo {
+    background-image: -webkit-linear-gradient(-90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-image: -o-linear-gradient(-90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-image: -ms-linear-gradient(-90deg, rgb(4,28,48) 0%, rgb(114,194,255) 100%, rgb(192,227,255) 100%, rgb(222,241,255) 100%, rgb(54,156,236) 100%, rgb(54,156,236) 100%);
+    background-position: center;
+    position: absolute;
+    left: -122px;
+    top: -265px;
+    width: 378px;
+    height: 378px;
+    align-items: flex-end;
+  }
+  .header__link{
+    margin-left: 50px;
+    margin-bottom: 45px;
+  }
+  .main {
+    min-width: 620px;
+  }
+  .phone {
+    background-size: 532px 375px;
+    width: 100%;
+    min-width: 620px;
+    height: 375px;
+    margin-bottom: 95px;
+  }
+  .description {
+    width: 620px;
+  }
+  .title {
+    font-size: 29px;
+    top: 100px;
+    right: 120px;
+  }
+  .gift {
+    font-size: 25px;
+    top: 162px;
+    right: 116px;
+  }
+  .gift_samsung {
+    display: none;
+  }
+  .ellipse {
+    margin-bottom: 110px;
+  }
+  .ellipse__small {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 18px;
+  }
+  .ellipse__middle {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 19px;
+  }
+  .ellipse__big {
+    width: 68px;
+    height: 68px;
+  }
+  .promotion {
+    margin-bottom: 0px;
+  }
+  .promotion__period {
+    font-size: 35px;
+    line-height: 1.571;
+    text-align: right;
+    margin: 0px 0px 70px 0px;
+  }
+  .promotion__terms {
+    margin-bottom: 62px;
+  }
+  .promotion__item {
+    display: none;
+  }
+  .promotion__item_tablet {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.687;
+    margin-bottom: 25px;
+    margin-left: -15px;
+  }
+  .promotion__index-one:before{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+  }
+  .promotion__index-two:before{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+  }
+  .button-pay {
+    order: 1;
+    font-size: 18px;
+    line-height: 67px;
+    width: 350px;
+    height: 67px;
+    border-radius: 35px;
+    margin-top: 23px;
+    margin-bottom: 120px;
+  }
+  .attributes {
+    width: 100%;
+    min-width: 375px;
+    height: 255px;
+    position: relative;
+  }
+  .balls {
+    height: 166px;
+    position: absolute;
+    left:-53px;
+  }
+  .ball-top {
+    width: 151px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.22);
+  }
+  .ball-middle {
+    width: 44px;
+    height: 44px;
+    left: 123px;
+    top: 163px;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.22);
+  }
+  .ball-bottom {
+    width: 28px;
+    height: 28px;
+    left: 166px;
+    top: 224px;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.22);
+  }
+  .box {
+    background-image: url('../img/box_tablet.png');
+    background-repeat: no-repeat;
+    background-size: 327px 643px;
+    width: 327px;
+    height: 643px;
+    position: absolute;
+    top: -174px;
+    right: 0px;
+  }
+  .advertising {
+    min-width: 620px;
+    margin-top: 168px;
+  }
+  .advertising-image {
+    width: 620px;
+    height: 243px;
+  }
+  .advertising__title {
+    display: none;
+  }
+  .advertising__title-tablet {
+    display: block;
+    align-self: center;
+    font-size: 20px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0px;
+  }
+  .advertising__card {
+    margin: 75px 0px 49px 0px;
+  }
+  .advertising__button {
+    font-size: 13px;
+    line-height: 46px;
+    width: 239px;
+    height: 46px;
+    border-radius: 30px;
+    margin-bottom: 90px;
+  }
+  .official-terms {
+    display: none;
+  }
+}
+@media screen and (min-width: 1100px) {
+  body {
+  background-image: linear-gradient( to top, #10419c 0%, #1a53be 4%, #032c83 15%, #032775 15.1%, #032b81 21%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -moz-linear-gradient( to top, #10419c 0%, #1a53be 4%, #032c83 15%, #032775 15.1%, #032b81 21%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -webkit-linear-gradient( to top, #10419c 0%, #1a53be 4%, #032c83 15%, #032775 15.1%, #032b81 21%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -ms-linear-gradient( to top, #10419c 0%, #1a53be 4%, #032c83 15%, #032775 15.1%, #032b81 21%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+  background-image: -o-linear-gradient( to top, #10419c 0%, #1a53be 4%, #032c83 15%, #032775 15.1%, #032b81 21%, #00297f 22.65%, #1146ac 66%, #1d58c5 78%, #3277f1 100%);
+}
+  .header {
+    min-width: 1100px;
+    height: 200px;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+  }
+  .header__logo {
+    background-image: -moz-linear-gradient( -90deg, rgb(5,29,47) 0%, rgb(117,195,255) 100%, rgb(193,228,255) 100%, rgb(223,241,255) 100%, rgb(60,157,233) 100%, rgb(60,157,233) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(5,29,47) 0%, rgb(117,195,255) 100%, rgb(193,228,255) 100%, rgb(223,241,255) 100%, rgb(60,157,233) 100%, rgb(60,157,233) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(5,29,47) 0%, rgb(117,195,255) 100%, rgb(193,228,255) 100%, rgb(223,241,255) 100%, rgb(60,157,233) 100%, rgb(60,157,233) 100%);
+    background-position: center;
+    position: absolute;
+    left: -249px;
+    top: -378px;
+    width: 539px;
+    height: 539px;
+    align-items: flex-end;
+  }
+  .header__link{
+    margin-left: 152px;
+    margin-bottom: 72px;
+  }
+  .main {
+    min-width: 1100px;
+    background: url('../img/dotted_line.png') no-repeat;
+    background-position: 80px 724px;
+    background-size: 1100px 1390px;
+  }
+  .phone {
+    background-size: 753px 508px;
+    width: 100%;
+    min-width: 753px;
+    height: 508px;
+    margin-bottom: 77px;
+  }
+  .description {
+    width: 620px;
+  }
+  .title {
+    font-size: 40px;
+    top: 120px;
+    right: 50px;
+  }
+  .gift {
+    display: none;
+  }
+  .gift_samsung {
+    display: block;
+    font-size: 40px;
+    top: 210px;
+    right: 50px;
+  }
+   .ellipse {
+    margin-bottom: 150px;
+  }
+  .ellipse__small {
+    width: 13px;
+    height: 13px;
+    margin-bottom: 14px;
+  }
+  .ellipse__middle {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  .ellipse__big {
+    width: 29px;
+    height: 29px;
+  }
+  .promotion {
+    align-items: flex-start;
+    width: 754px;
+    margin-bottom: 0px;
+  }
+  .promotion__period {
+    display: none;
+  }
+  .promotion__terms {
+    margin-bottom: 50px;
+  }
+  .promotion__period_desktop {
+    display: block;
+    font-size: 40px;
+    line-height: 1.357;
+    text-align: right;
+    margin: 0px 0px 100px 4px;
+  }
+  .promotion__item,.promotion__item_tablet {
+    display: none;
+  }
+  .promotion__index-one:before{
+    content: '1.';
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    margin-right: 8px;
+    background: transparent;
+    color: #ffffff;
+  }
+  .promotion__index-two:before{
+    content: '2.';
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    margin-right: 8px;
+    background: transparent;
+    color: #ffffff;
+  }
+  .promotion__item_samsung {
+    display: flex;
+    font-size: 20px;
+    line-height: 1.687;
+    margin-bottom: 0px;
+    margin-left: 45px;
+  }
+  .promotion__winner {
+    width: 550px;
+    font-family: "MontserratLight";
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #fefefe;
+    margin-bottom: 16px;
+    margin-left: 88px;
+  }
+  .promotion__result-date {
+    font-family: "MontserratBold";
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    color: #fefefe;
+    text-align: center;
+    margin-left: 90px;
+  }
+  .button-pay {
+    order: 1;
+    font-size: 18px;
+    line-height: 72px;
+    width: 378px;
+    height: 72px;
+    border-radius: 40px;
+    margin: 132px 0px 0px 78px;
+  }
+  .attributes {
+    width: 100%;
+    height: 0px;
+    min-width: 1100px;
+    position: relative;
+  }
+  .balls {
+    display: none;
+  }
+  .box {
+    background-image: url('../img/box_desktop.png');
+    background-repeat: no-repeat;
+    background-size: 530px 629px;
+    width: 530px;
+    height: 629px;
+    position: absolute;
+    top: -300px;
+    right: 0px;
+  }
+  .advertising {
+    text-align: right;
+    width: 754px;
+    margin-top: 413px;
+  }
+  .advertising-image {
+    width: 620px;
+    height: 243px;
+  }
+  .advertising__title, .advertising__title-tablet {
+    display: none;
+  }
+  .advertising__title-desktop {
+    display: block;
+    align-self: flex-end;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    margin: 0px;
+    text-align: right;
+  }
+  .advertising__card {
+    align-self: flex-start;
+    margin: 120px 0px 46px -270px;
+    order: 1;
+  }
+  .advertising__button {
+    align-self: flex-end;
+    font-size: 18px;
+    line-height: 72px;
+    width: 378px;
+    height: 72px;
+    border-radius: 40px;
+    margin: 110px 97px 0px 0px;
+  }
+  .ellipses__bottom {
+    width: 1072px;
+    flex-flow: column wrap;
+    overflow: hidden;
+  }
+  .ellipse__top {
+    display: none;
+  }
+  .ellipse__bottom {
+    align-self: flex-start;
+    height: 118px;
+    width: 118px;
+    box-shadow: -0.5px 1px 4px 1px rgba(0,0,0,0.35);
+    margin-bottom: -102px;
+  }
+  .official-terms{
+    display: flex;
+    align-self: center;
+    margin-bottom: 18px;
+  }
+  .official-terms__link {
+    display: block;
+    font-family: "MontserratThin";
+    color: rgb(254, 254, 254);
+    font-size: 24px;
+    width: 264px;
+    border-bottom: 1px solid rgb(254, 254, 254);
+    font-variant: small-caps;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+  }
+  .partners, .secure {
+    display: flex;
+  }
+  .footer-information {
+    width: 475px;
+  }
+}
